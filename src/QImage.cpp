@@ -1,46 +1,38 @@
 #include "QImage.h"
 
 
-QImage::QImage(int srcWidth, int srcHeight, int outResolution){
-    
-    ratio = srcWidth/srcHeight;
+QImage::QImage(int compressionLevel, cv::Mat srcImage){
 
-    CompressImage(outResolution);
-
+    CompressImage(compressionLevel, srcImage);
 }
-
-QImage::QImage(int srcWidth, int srcHeight){
-    ratio = srcWidth/srcHeight;
-
-    height = -1;
-    width = -1;
-}
-
 
 QImage::~QImage(){
-
-
-
 
     return;
 }
 
 
-
-inline int QImage::MemSize() const{
-
-
-
+int QImage::MemSize() const{
 
     return 0;
 }
 
-void QImage::CompressImage(int newResolution){
+cv::Mat QImage::GetImage() const{
 
-    height = newResolution;
-    width = newResolution * ratio;
+    return image;
+}
 
+void QImage::CompressImage(int level, cv::Mat srcImage){
 
-    for(int )
+    char startIndex = level/2;
+    char step = level+1;
 
+    image = cv::Mat(srcImage.cols/startIndex, srcImage.rows/startIndex, CV_8UC3);
+
+    for(int i = startIndex; i<srcImage.cols; i+=step){
+        for(int j = startIndex; j<srcImage.rows; j+=step){
+
+            image.at<uchar>(i,j) = (0,255,0);
+        }
+    }
 }

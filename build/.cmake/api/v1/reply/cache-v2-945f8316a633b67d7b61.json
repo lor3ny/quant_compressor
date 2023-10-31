@@ -1127,7 +1127,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[/usr][v4.5.4()]"
+			"value" : "[/usr/local][v4.8.0()]"
 		},
 		{
 			"name" : "OpenCV_DIR",
@@ -1139,7 +1139,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/usr/lib/x86_64-linux-gnu/cmake/opencv4"
+			"value" : "/usr/local/lib/cmake/opencv4"
 		},
 		{
 			"name" : "drone_map_BINARY_DIR",

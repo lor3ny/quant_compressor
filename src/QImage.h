@@ -6,8 +6,6 @@
 class QImage {
     
     private:
-        float ratio;
-
         int width;
         int height;
 
@@ -15,14 +13,15 @@ class QImage {
 
     public:
 
-        QImage(int srcWidth, int srcHeight, int outResolution);
-        QImage(int srcWidth, int srcHeight);
+        QImage(int compressionLevel, cv::Mat srcImage);
         ~QImage();
 
 
-    inline int MemSize() const;
+    int MemSize() const;
 
+    cv::Mat GetImage() const;
 
-    void CompressImage(int newResolution);
+    void CompressImage(int level, cv::Mat srcImage);
+
 
 };
