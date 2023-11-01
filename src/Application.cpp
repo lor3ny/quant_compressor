@@ -4,17 +4,17 @@
 
 int main(){
 
-    cv::Mat image = cv::imread("/home/lor3n/Dev/quant_compressor/res/test.jpeg", 
+    cv::Mat src = cv::imread("/home/lor3n/Dev/quant_compressor/res/test.jpeg", 
                        cv::IMREAD_GRAYSCALE); 
   
-    if (image.empty()) { 
+    if (src.empty()) { 
         return -1; 
     } 
   
-    cv::imshow("src image", image); 
+    cv::imshow("src image", src); 
     cv::waitKey(0); 
 
-    QImage quantImage(3, image);
+    QImage quantImage(2, src);
 
     cv::imshow("quant image", quantImage.GetImage()); 
     cv::waitKey(0); 

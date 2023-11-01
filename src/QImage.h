@@ -13,7 +13,7 @@ class QImage {
 
     public:
 
-        QImage(int compressionLevel, cv::Mat srcImage);
+        QImage(int compressionLevel, cv::Mat& srcImage);
         ~QImage();
 
 
@@ -21,7 +21,7 @@ class QImage {
 
     cv::Mat GetImage() const;
 
-    void CompressImage(int level, cv::Mat srcImage);
+    void CompressImage(int level, cv::Mat& srcImage);
 
 
 };
