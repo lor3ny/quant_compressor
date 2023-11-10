@@ -4,8 +4,8 @@
 
 int main(){
 
-    cv::Mat src = cv::imread("/home/lor3n/Dev/quant_compressor/res/test.jpeg", 
-                       cv::IMREAD_GRAYSCALE); 
+    cv::Mat src = cv::imread("/home/lor3n/Dev/quant_compressor/res/test720.jpg", 
+                       cv::IMREAD_ANYCOLOR); 
   
     if (src.empty()) { 
         return -1; 
@@ -14,8 +14,19 @@ int main(){
     cv::imshow("src image", src); 
     cv::waitKey(0); 
 
-    QImage quantImage(2, src);
+    QImage quantImage(1, src);
+    cv::imshow("quant image", quantImage.GetImage()); 
+    cv::waitKey(0);
 
+    quantImage.CompressImage(2);
+    cv::imshow("quant image", quantImage.GetImage()); 
+    cv::waitKey(0); 
+
+    quantImage.CompressImage(3);
+    cv::imshow("quant image", quantImage.GetImage()); 
+    cv::waitKey(0); 
+
+    quantImage.CompressImage(4);
     cv::imshow("quant image", quantImage.GetImage()); 
     cv::waitKey(0); 
 
