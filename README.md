@@ -1,1 +1,1 @@
-# quant_compressor
+# tiny_compressor
