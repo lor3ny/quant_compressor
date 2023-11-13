@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/lor3n/Dev/quant_compressor/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/drone_map.dir/all
+all: CMakeFiles/tyRed.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/drone_map.dir/clean
+clean: CMakeFiles/tyRed.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/drone_map.dir
+# Target rules for target CMakeFiles/tyRed.dir
 
 # All Build rule for target.
-CMakeFiles/drone_map.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone_map.dir/build.make CMakeFiles/drone_map.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone_map.dir/build.make CMakeFiles/drone_map.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lor3n/Dev/quant_compressor/build/CMakeFiles --progress-num=1,2,3 "Built target drone_map"
-.PHONY : CMakeFiles/drone_map.dir/all
+CMakeFiles/tyRed.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tyRed.dir/build.make CMakeFiles/tyRed.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tyRed.dir/build.make CMakeFiles/tyRed.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lor3n/Dev/quant_compressor/build/CMakeFiles --progress-num=1,2,3 "Built target tyRed"
+.PHONY : CMakeFiles/tyRed.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/drone_map.dir/rule: cmake_check_build_system
+CMakeFiles/tyRed.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lor3n/Dev/quant_compressor/build/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/drone_map.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tyRed.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lor3n/Dev/quant_compressor/build/CMakeFiles 0
-.PHONY : CMakeFiles/drone_map.dir/rule
+.PHONY : CMakeFiles/tyRed.dir/rule
 
 # Convenience name for target.
-drone_map: CMakeFiles/drone_map.dir/rule
-.PHONY : drone_map
+tyRed: CMakeFiles/tyRed.dir/rule
+.PHONY : tyRed
 
 # clean rule for target.
-CMakeFiles/drone_map.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone_map.dir/build.make CMakeFiles/drone_map.dir/clean
-.PHONY : CMakeFiles/drone_map.dir/clean
+CMakeFiles/tyRed.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tyRed.dir/build.make CMakeFiles/tyRed.dir/clean
+.PHONY : CMakeFiles/tyRed.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

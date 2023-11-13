@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "drone_map"
+			"path" : "tyRed"
 		}
 	],
 	"backtrace" : 1,
@@ -61,7 +61,7 @@
 			]
 		}
 	],
-	"id" : "drone_map::@6890427a1f51a3e7e1df",
+	"id" : "tyRed::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -347,8 +347,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "drone_map",
-	"nameOnDisk" : "drone_map",
+	"name" : "tyRed",
+	"nameOnDisk" : "tyRed",
 	"paths" : 
 	{
 		"build" : ".",

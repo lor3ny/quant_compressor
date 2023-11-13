@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named drone_map
+# Target rules for targets named tyRed
 
 # Build rule for target.
-drone_map: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 drone_map
-.PHONY : drone_map
+tyRed: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tyRed
+.PHONY : tyRed
 
 # fast build rule for target.
-drone_map/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone_map.dir/build.make CMakeFiles/drone_map.dir/build
-.PHONY : drone_map/fast
+tyRed/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tyRed.dir/build.make CMakeFiles/tyRed.dir/build
+.PHONY : tyRed/fast
 
 src/Application.o: src/Application.cpp.o
 .PHONY : src/Application.o
 
 # target to build an object file
 src/Application.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone_map.dir/build.make CMakeFiles/drone_map.dir/src/Application.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tyRed.dir/build.make CMakeFiles/tyRed.dir/src/Application.cpp.o
 .PHONY : src/Application.cpp.o
 
 src/Application.i: src/Application.cpp.i
@@ -142,7 +142,7 @@ src/Application.i: src/Application.cpp.i
 
 # target to preprocess a source file
 src/Application.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone_map.dir/build.make CMakeFiles/drone_map.dir/src/Application.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tyRed.dir/build.make CMakeFiles/tyRed.dir/src/Application.cpp.i
 .PHONY : src/Application.cpp.i
 
 src/Application.s: src/Application.cpp.s
@@ -150,7 +150,7 @@ src/Application.s: src/Application.cpp.s
 
 # target to generate assembly for a file
 src/Application.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone_map.dir/build.make CMakeFiles/drone_map.dir/src/Application.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tyRed.dir/build.make CMakeFiles/tyRed.dir/src/Application.cpp.s
 .PHONY : src/Application.cpp.s
 
 src/Reducer.o: src/Reducer.cpp.o
@@ -158,7 +158,7 @@ src/Reducer.o: src/Reducer.cpp.o
 
 # target to build an object file
 src/Reducer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone_map.dir/build.make CMakeFiles/drone_map.dir/src/Reducer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tyRed.dir/build.make CMakeFiles/tyRed.dir/src/Reducer.cpp.o
 .PHONY : src/Reducer.cpp.o
 
 src/Reducer.i: src/Reducer.cpp.i
@@ -166,7 +166,7 @@ src/Reducer.i: src/Reducer.cpp.i
 
 # target to preprocess a source file
 src/Reducer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone_map.dir/build.make CMakeFiles/drone_map.dir/src/Reducer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tyRed.dir/build.make CMakeFiles/tyRed.dir/src/Reducer.cpp.i
 .PHONY : src/Reducer.cpp.i
 
 src/Reducer.s: src/Reducer.cpp.s
@@ -174,7 +174,7 @@ src/Reducer.s: src/Reducer.cpp.s
 
 # target to generate assembly for a file
 src/Reducer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone_map.dir/build.make CMakeFiles/drone_map.dir/src/Reducer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tyRed.dir/build.make CMakeFiles/tyRed.dir/src/Reducer.cpp.s
 .PHONY : src/Reducer.cpp.s
 
 # Help Target
@@ -185,7 +185,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... drone_map"
+	@echo "... tyRed"
 	@echo "... src/Application.o"
 	@echo "... src/Application.i"
 	@echo "... src/Application.s"
