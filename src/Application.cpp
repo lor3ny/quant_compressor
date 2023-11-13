@@ -15,7 +15,7 @@ int main(){
     cv::waitKey(0); 
 
     unsigned int red;
-    Reducer reductor(red);
+    tyRed::Reducer reductor(red);
     cv::Mat out = reductor.StepCompression(1, src);
     cv::imshow("quant image", out); 
     cv::waitKey(0); 

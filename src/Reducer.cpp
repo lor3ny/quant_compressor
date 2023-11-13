@@ -1,5 +1,6 @@
 #include "Reducer.h"
 
+using namespace tyRed;
 
 int Reducer::MemSize() const{
     return 0;

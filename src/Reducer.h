@@ -3,6 +3,8 @@
 #include <opencv2/opencv.hpp> 
 #include <iostream>
 
+namespace tyRed {
+
 class Reducer {
     
     private:
@@ -16,3 +18,5 @@ class Reducer {
         cv::Mat StepCompression(int level, cv::Mat& srcImage);
 
 };
+
+}
