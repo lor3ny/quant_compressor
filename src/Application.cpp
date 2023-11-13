@@ -1,6 +1,6 @@
 #include <opencv2/core.hpp>
 #include <opencv2/imgcodecs.hpp>
-#include "QImage.h"
+#include "Reducer.h"
 
 int main(){
 
@@ -14,20 +14,10 @@ int main(){
     cv::imshow("src image", src); 
     cv::waitKey(0); 
 
-    QImage quantImage(1, src);
-    cv::imshow("quant image", quantImage.GetImage()); 
-    cv::waitKey(0);
-
-    quantImage.CompressImage(2);
-    cv::imshow("quant image", quantImage.GetImage()); 
-    cv::waitKey(0); 
-
-    quantImage.CompressImage(3);
-    cv::imshow("quant image", quantImage.GetImage()); 
-    cv::waitKey(0); 
-
-    quantImage.CompressImage(4);
-    cv::imshow("quant image", quantImage.GetImage()); 
+    unsigned int red;
+    Reducer reductor(red);
+    cv::Mat out = reductor.StepCompression(1, src);
+    cv::imshow("quant image", out); 
     cv::waitKey(0); 
 
     return 0; 

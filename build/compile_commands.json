@@ -6,7 +6,7 @@
 },
 {
   "directory": "/home/lor3n/Dev/quant_compressor/build",
-  "command": "/usr/bin/g++  -isystem /usr/include/opencv4 -g -o CMakeFiles/drone_map.dir/src/QImage.cpp.o -c /home/lor3n/Dev/quant_compressor/src/QImage.cpp",
-  "file": "/home/lor3n/Dev/quant_compressor/src/QImage.cpp"
+  "command": "/usr/bin/g++  -isystem /usr/include/opencv4 -g -o CMakeFiles/drone_map.dir/src/Reducer.cpp.o -c /home/lor3n/Dev/quant_compressor/src/Reducer.cpp",
+  "file": "/home/lor3n/Dev/quant_compressor/src/Reducer.cpp"
 }
 ]

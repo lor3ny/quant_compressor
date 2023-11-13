@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/drone_map.dir/src/Application.cpp.o"
   "CMakeFiles/drone_map.dir/src/Application.cpp.o.d"
-  "CMakeFiles/drone_map.dir/src/QImage.cpp.o"
-  "CMakeFiles/drone_map.dir/src/QImage.cpp.o.d"
+  "CMakeFiles/drone_map.dir/src/Reducer.cpp.o"
+  "CMakeFiles/drone_map.dir/src/Reducer.cpp.o.d"
   "drone_map"
   "drone_map.pdb"
 )

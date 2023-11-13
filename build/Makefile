@@ -153,29 +153,29 @@ src/Application.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone_map.dir/build.make CMakeFiles/drone_map.dir/src/Application.cpp.s
 .PHONY : src/Application.cpp.s
 
-src/QImage.o: src/QImage.cpp.o
-.PHONY : src/QImage.o
+src/Reducer.o: src/Reducer.cpp.o
+.PHONY : src/Reducer.o
 
 # target to build an object file
-src/QImage.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone_map.dir/build.make CMakeFiles/drone_map.dir/src/QImage.cpp.o
-.PHONY : src/QImage.cpp.o
+src/Reducer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone_map.dir/build.make CMakeFiles/drone_map.dir/src/Reducer.cpp.o
+.PHONY : src/Reducer.cpp.o
 
-src/QImage.i: src/QImage.cpp.i
-.PHONY : src/QImage.i
+src/Reducer.i: src/Reducer.cpp.i
+.PHONY : src/Reducer.i
 
 # target to preprocess a source file
-src/QImage.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone_map.dir/build.make CMakeFiles/drone_map.dir/src/QImage.cpp.i
-.PHONY : src/QImage.cpp.i
+src/Reducer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone_map.dir/build.make CMakeFiles/drone_map.dir/src/Reducer.cpp.i
+.PHONY : src/Reducer.cpp.i
 
-src/QImage.s: src/QImage.cpp.s
-.PHONY : src/QImage.s
+src/Reducer.s: src/Reducer.cpp.s
+.PHONY : src/Reducer.s
 
 # target to generate assembly for a file
-src/QImage.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone_map.dir/build.make CMakeFiles/drone_map.dir/src/QImage.cpp.s
-.PHONY : src/QImage.cpp.s
+src/Reducer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone_map.dir/build.make CMakeFiles/drone_map.dir/src/Reducer.cpp.s
+.PHONY : src/Reducer.cpp.s
 
 # Help Target
 help:
@@ -189,9 +189,9 @@ help:
 	@echo "... src/Application.o"
 	@echo "... src/Application.i"
 	@echo "... src/Application.s"
-	@echo "... src/QImage.o"
-	@echo "... src/QImage.i"
-	@echo "... src/QImage.s"
+	@echo "... src/Reducer.o"
+	@echo "... src/Reducer.i"
+	@echo "... src/Reducer.s"
 .PHONY : help
 
 

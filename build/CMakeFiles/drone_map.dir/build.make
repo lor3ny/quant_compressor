@@ -83,30 +83,30 @@ CMakeFiles/drone_map.dir/src/Application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/drone_map.dir/src/Application.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lor3n/Dev/quant_compressor/src/Application.cpp -o CMakeFiles/drone_map.dir/src/Application.cpp.s
 
-CMakeFiles/drone_map.dir/src/QImage.cpp.o: CMakeFiles/drone_map.dir/flags.make
-CMakeFiles/drone_map.dir/src/QImage.cpp.o: ../src/QImage.cpp
-CMakeFiles/drone_map.dir/src/QImage.cpp.o: CMakeFiles/drone_map.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lor3n/Dev/quant_compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/drone_map.dir/src/QImage.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/drone_map.dir/src/QImage.cpp.o -MF CMakeFiles/drone_map.dir/src/QImage.cpp.o.d -o CMakeFiles/drone_map.dir/src/QImage.cpp.o -c /home/lor3n/Dev/quant_compressor/src/QImage.cpp
+CMakeFiles/drone_map.dir/src/Reducer.cpp.o: CMakeFiles/drone_map.dir/flags.make
+CMakeFiles/drone_map.dir/src/Reducer.cpp.o: ../src/Reducer.cpp
+CMakeFiles/drone_map.dir/src/Reducer.cpp.o: CMakeFiles/drone_map.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lor3n/Dev/quant_compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/drone_map.dir/src/Reducer.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/drone_map.dir/src/Reducer.cpp.o -MF CMakeFiles/drone_map.dir/src/Reducer.cpp.o.d -o CMakeFiles/drone_map.dir/src/Reducer.cpp.o -c /home/lor3n/Dev/quant_compressor/src/Reducer.cpp
 
-CMakeFiles/drone_map.dir/src/QImage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/drone_map.dir/src/QImage.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lor3n/Dev/quant_compressor/src/QImage.cpp > CMakeFiles/drone_map.dir/src/QImage.cpp.i
+CMakeFiles/drone_map.dir/src/Reducer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/drone_map.dir/src/Reducer.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lor3n/Dev/quant_compressor/src/Reducer.cpp > CMakeFiles/drone_map.dir/src/Reducer.cpp.i
 
-CMakeFiles/drone_map.dir/src/QImage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/drone_map.dir/src/QImage.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lor3n/Dev/quant_compressor/src/QImage.cpp -o CMakeFiles/drone_map.dir/src/QImage.cpp.s
+CMakeFiles/drone_map.dir/src/Reducer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/drone_map.dir/src/Reducer.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lor3n/Dev/quant_compressor/src/Reducer.cpp -o CMakeFiles/drone_map.dir/src/Reducer.cpp.s
 
 # Object files for target drone_map
 drone_map_OBJECTS = \
 "CMakeFiles/drone_map.dir/src/Application.cpp.o" \
-"CMakeFiles/drone_map.dir/src/QImage.cpp.o"
+"CMakeFiles/drone_map.dir/src/Reducer.cpp.o"
 
 # External object files for target drone_map
 drone_map_EXTERNAL_OBJECTS =
 
 drone_map: CMakeFiles/drone_map.dir/src/Application.cpp.o
-drone_map: CMakeFiles/drone_map.dir/src/QImage.cpp.o
+drone_map: CMakeFiles/drone_map.dir/src/Reducer.cpp.o
 drone_map: CMakeFiles/drone_map.dir/build.make
 drone_map: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.5.4d
 drone_map: /usr/lib/x86_64-linux-gnu/libopencv_alphamat.so.4.5.4d

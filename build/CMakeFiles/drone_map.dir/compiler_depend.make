@@ -309,7 +309,7 @@ CMakeFiles/drone_map.dir/src/Application.cpp.o: ../src/Application.cpp \
   /usr/include/opencv4/opencv2/core/ovx.hpp \
   /usr/include/opencv4/opencv2/core/cvdef.h \
   /usr/include/opencv4/opencv2/imgcodecs.hpp \
-  ../src/QImage.h \
+  ../src/Reducer.h \
   /usr/include/opencv4/opencv2/opencv.hpp \
   /usr/include/opencv4/opencv2/calib3d.hpp \
   /usr/include/opencv4/opencv2/features2d.hpp \
@@ -415,9 +415,9 @@ CMakeFiles/drone_map.dir/src/Application.cpp.o: ../src/Application.cpp \
   /usr/include/opencv4/opencv2/video/tracking.hpp \
   /usr/include/opencv4/opencv2/video/background_segm.hpp
 
-CMakeFiles/drone_map.dir/src/QImage.cpp.o: ../src/QImage.cpp \
+CMakeFiles/drone_map.dir/src/Reducer.cpp.o: ../src/Reducer.cpp \
   /usr/include/stdc-predef.h \
-  ../src/QImage.h \
+  ../src/Reducer.h \
   /usr/include/opencv4/opencv2/opencv.hpp \
   /usr/include/opencv4/opencv2/opencv_modules.hpp \
   /usr/include/opencv4/opencv2/core.hpp \
@@ -900,6 +900,8 @@ CMakeFiles/drone_map.dir/src/QImage.cpp.o: ../src/QImage.cpp \
 
 /usr/include/c++/11/bits/stl_set.h:
 
+../src/Reducer.cpp:
+
 /usr/include/c++/11/set:
 
 /usr/include/opencv4/opencv2/flann/result_set.h:
@@ -947,6 +949,8 @@ CMakeFiles/drone_map.dir/src/QImage.cpp.o: ../src/QImage.cpp \
 /usr/include/opencv4/opencv2/calib3d.hpp:
 
 /usr/include/opencv4/opencv2/opencv.hpp:
+
+../src/Reducer.h:
 
 /usr/include/opencv4/opencv2/imgcodecs.hpp:
 
@@ -1412,8 +1416,6 @@ CMakeFiles/drone_map.dir/src/QImage.cpp.o: ../src/QImage.cpp \
 
 /usr/include/c++/11/bits/alloc_traits.h:
 
-../src/QImage.cpp:
-
 /usr/include/c++/11/bits/hashtable.h:
 
 /usr/include/c++/11/bits/hashtable_policy.h:
@@ -1505,8 +1507,6 @@ CMakeFiles/drone_map.dir/src/QImage.cpp.o: ../src/QImage.cpp \
 /usr/include/c++/11/initializer_list:
 
 /usr/include/c++/11/iosfwd:
-
-../src/QImage.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 

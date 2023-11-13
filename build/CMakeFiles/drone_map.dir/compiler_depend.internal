@@ -310,7 +310,7 @@ CMakeFiles/drone_map.dir/src/Application.cpp.o
  /usr/include/opencv4/opencv2/core/ovx.hpp
  /usr/include/opencv4/opencv2/core/cvdef.h
  /usr/include/opencv4/opencv2/imgcodecs.hpp
- /home/lor3n/Dev/quant_compressor/src/QImage.h
+ /home/lor3n/Dev/quant_compressor/src/Reducer.h
  /usr/include/opencv4/opencv2/opencv.hpp
  /usr/include/opencv4/opencv2/calib3d.hpp
  /usr/include/opencv4/opencv2/features2d.hpp
@@ -416,10 +416,10 @@ CMakeFiles/drone_map.dir/src/Application.cpp.o
  /usr/include/opencv4/opencv2/video/tracking.hpp
  /usr/include/opencv4/opencv2/video/background_segm.hpp
 
-CMakeFiles/drone_map.dir/src/QImage.cpp.o
- /home/lor3n/Dev/quant_compressor/src/QImage.cpp
+CMakeFiles/drone_map.dir/src/Reducer.cpp.o
+ /home/lor3n/Dev/quant_compressor/src/Reducer.cpp
  /usr/include/stdc-predef.h
- /home/lor3n/Dev/quant_compressor/src/QImage.h
+ /home/lor3n/Dev/quant_compressor/src/Reducer.h
  /usr/include/opencv4/opencv2/opencv.hpp
  /usr/include/opencv4/opencv2/opencv_modules.hpp
  /usr/include/opencv4/opencv2/core.hpp
